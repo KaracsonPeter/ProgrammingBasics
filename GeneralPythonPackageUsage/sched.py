@@ -26,7 +26,10 @@ if __name__ == '__main__':
     s.enter(DELAY_1, MIDDLE_PRIORITY, print_time, kwargs={'parameter': 'keyword argument'})
     s.run()
 
-    # !!! It wont run in each second! Execution of print takes some time.
+    # !!! It wont run exactly in each second on windows!
+	# "The accuracy of the time.sleep function depends on your underlying OS's sleep accuracy. 
+	# For non-realtime OS's like a stock Windows the smallest interval you can sleep for is about 10-13ms."
+	# (https://stackoverflow.com/questions/1133857/how-accurate-is-pythons-time-sleep)
     for x in range(0, 9):
         s.enter(DELAY_1, LOWEST_PRIORITY, print_time)
         s.run()
