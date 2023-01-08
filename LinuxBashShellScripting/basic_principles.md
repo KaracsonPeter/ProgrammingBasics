@@ -1,3 +1,9 @@
+# Bash shell scripting
+The purpose of this documentation is to introduce how powerful you can cooperate with Linux systems 
+by using commands built in the system and also automate tasks with them. 
+It can be useful for managing Linux servers in every kind of project.  
+(These are my notes from an udemy lecture called "Complete Linux Bash Shell Scripting with Real Life Examples" by Imran Afzal.)
+
 ## What is a Kernel?
 An interface between your HardWare (HW) and SoftWare (SW).
 It is part of the Operating System (OS), and it takes commands from the Shell.
