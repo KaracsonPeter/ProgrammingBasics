@@ -60,8 +60,10 @@ E.g. the leg has to connect to the seating area somehow.
 The shapes of the hole on the seating area and the end of the leg will define a connection functionality group.  
 This functionality group called the **interface**,  
 and the functionalities are called **functions** in programming.  
-Now you can easily see, that the most important thing when you are planning a chair is to define how different parts will connect to each other!  
-Without this appropriate interface the manufactured parts of your chair are no more than fancy lighters in your fireplace.
+Now you can easily see, that the most important thing when you are planning a chair is to define how different parts (components) will connect to each other!  
+Without this appropriate interface the manufactured parts of your chair are no more than fancy lighters in your fireplace.  
+As you notices by now, chair is an analogy for an example SoftWare (**SW**).  
+The assembly and testing of these "SW Components" (**SWC**s) are called **SoftWare Integration**.
 
 In the next section, we will program a simple but exciting project according to these principles.  
-You have multiple options to choose in [Lecture2](../Lecture_02) directory. From these you can choose the most interesting one for you and go on Lecture3.
+You have multiple options to choose in [Lecture_02](../Lecture_02) directory. From these you can choose the most interesting one for you and go on Lecture_03.
